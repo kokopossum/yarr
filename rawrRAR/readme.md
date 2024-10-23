@@ -6,14 +6,13 @@ This script extracts `.rar` files from a specified source directory to a destina
 ## Usage
 
 ```bash
-./rawrrar.sh -s <source_directory> -d <destination_directory> [-v] [-p]
+./rawrrar.sh -s <source_directory> -d <destination_directory>  [-p]
 ```
 
 ### Options
 
 - `-s <source_directory>`: Specify the source directory containing `.rar` files (required).
 - `-d <destination_directory>`: Specify the destination directory where extracted files will be stored (required).
-- `-v`: Enable verbose output (optional).
 - `-p`: Disable parallel extraction (optional).
 
 ## Requirements
